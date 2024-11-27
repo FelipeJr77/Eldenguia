@@ -1,0 +1,59 @@
+body {color: white;
+background: black;
+margin: 2px;
+font-family: "Raleway", sans-serif;
+margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 1px rgba(243, 139, 4, 0.7);
+    padding: 15px;
+    font-size: 25px;
+    color: rgba(43, 43, 43, 1);
+    font-family: "Cinzel Decorative", serif;
+}
+
+.chamada{
+    background: rgb(68, 68, 68, 077);
+    padding: 50px;
+    display: flex;
+    justify-content: center; 
+    box-shadow: 0 4px 15px rgba(243, 139, 4, 0.5);
+    
+}
+
+.chamada-texto {
+    margin-right: 20%;
+}
+
+h1{
+    font-size: 30px
+}
+
+p{
+    font-size: 20px
+}
+img{
+    height: 200px;
+}
+.seção2{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.endgame{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.seção2 img{
+    opacity: 0.5;
+}
+.seção2 img:hover{
+    opacity: 1.0;
+    border: 2px solid rgba(243, 139, 4, 0.5);
+}
+.endgame h2{
+    color: rgba(43, 43, 43, 1);
+    font-family: "Cinzel Decorative", serif;
+}
+
